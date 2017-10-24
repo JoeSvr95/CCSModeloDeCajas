@@ -1,0 +1,51 @@
+#titulo-sitio {
+	font-size: 4em;
+	color: #D39A0A;
+	text-shadow: 2px 2px #BC8609;
+}
+
+header > img#fondo {
+	position: absolute;
+	opacity: 0.5;
+	left: 0;
+	top: 0;
+	width: 60%;
+}
+
+.receta {
+	display: inline-block;
+}
+
+#mini_recetas h3{
+	font-variant: small-caps;
+}
+
+#categoria {
+	color: #D69F2A;
+}
+
+#mini_recetas div{
+	border: 1pt solid #2D3035;
+	border-radius: 5px;
+	margin: 10px;
+	width: 150px;
+}
+
+.receta h3 {
+	padding-bottom: 40px;
+	padding-left: 15px;
+}
+
+#recetas > div {
+	overflow: auto;
+}
+
+span img{
+	width: 25%;
+	float: left;
+	padding-right: 10px;
+}
+
+body {
+	margin: 2% 25% 2%;
+}
