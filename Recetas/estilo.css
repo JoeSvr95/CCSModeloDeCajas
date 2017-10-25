@@ -10,10 +10,22 @@ header > img#fondo {
 	left: 0;
 	top: 0;
 	width: 60%;
+	z-index: -1;
+}
+
+.img_receta {
+	position: absolute;
+	z-index: -1;
+}
+
+img.img_receta:hover {
+	opacity: 0.7;
 }
 
 .receta {
 	display: inline-block;
+	position: relative;
+	overflow: hidden;
 }
 
 #mini_recetas h3{
@@ -38,12 +50,28 @@ header > img#fondo {
 
 #recetas > div {
 	overflow: auto;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom: 1pt dotted #E0D2B1;
 }
 
 span img{
 	width: 25%;
 	float: left;
 	padding-right: 10px;
+}
+
+a {
+	color: #DB990A;
+}
+
+a:hover {
+	color: #EDC163;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #7C652E;
 }
 
 body {
