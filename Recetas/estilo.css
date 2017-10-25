@@ -18,14 +18,16 @@ header > img#fondo {
 	z-index: -1;
 }
 
-img.img_receta:hover {
-	opacity: 0.7;
-}
+
 
 .receta {
 	display: inline-block;
 	position: relative;
 	overflow: hidden;
+}
+
+div.receta:hover{
+	opacity: 0.7;
 }
 
 #mini_recetas h3{
